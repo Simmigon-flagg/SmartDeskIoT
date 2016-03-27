@@ -141,17 +141,18 @@ public class SmartDesk extends javax.swing.JFrame {
 
         CardPanel3.setBackground(new java.awt.Color(153, 0, 255));
 
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/Slide3.JPG"))); // NOI18N
         jLabel5.setText("jLabel5");
 
         javax.swing.GroupLayout CardPanel3Layout = new javax.swing.GroupLayout(CardPanel3);
         CardPanel3.setLayout(CardPanel3Layout);
         CardPanel3Layout.setHorizontalGroup(
             CardPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 971, Short.MAX_VALUE)
+            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         CardPanel3Layout.setVerticalGroup(
             CardPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 453, Short.MAX_VALUE)
+            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PanCard.add(CardPanel3, "card2");
