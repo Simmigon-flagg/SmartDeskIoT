@@ -29,10 +29,6 @@ public class SmartDesk extends javax.swing.JFrame {
 
         PanCard = new javax.swing.JPanel();
         CardPanel1 = new javax.swing.JPanel();
-        jPanel1 = new javax.swing.JPanel();
-        book1 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         CardPanel2 = new javax.swing.JPanel();
         CardPanel3 = new javax.swing.JPanel();
         CardPanel4 = new javax.swing.JPanel();
@@ -44,8 +40,8 @@ public class SmartDesk extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(950, 560));
-        setPreferredSize(new java.awt.Dimension(950, 560));
+        setMinimumSize(new java.awt.Dimension(1000, 560));
+        setPreferredSize(new java.awt.Dimension(1000, 560));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -55,74 +51,24 @@ public class SmartDesk extends javax.swing.JFrame {
 
         CardPanel1.setBackground(new java.awt.Color(102, 255, 0));
         CardPanel1.setOpaque(false);
-
-        book1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/math.jpg"))); // NOI18N
-        book1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(book1)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(book1, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1))
-        );
-
-        jPanel3.setOpaque(false);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/mathquestion.png"))); // NOI18N
-        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        CardPanel1.setPreferredSize(new java.awt.Dimension(971, 453));
 
         javax.swing.GroupLayout CardPanel1Layout = new javax.swing.GroupLayout(CardPanel1);
         CardPanel1.setLayout(CardPanel1Layout);
         CardPanel1Layout.setHorizontalGroup(
             CardPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CardPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
+            .addGap(0, 1022, Short.MAX_VALUE)
         );
         CardPanel1Layout.setVerticalGroup(
             CardPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CardPanel1Layout.createSequentialGroup()
-                .addGroup(CardPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(CardPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+            .addGap(0, 453, Short.MAX_VALUE)
         );
 
         PanCard.add(CardPanel1, "card2");
 
-        CardPanel2.setBackground(new java.awt.Color(153, 255, 0));
+        CardPanel2.setBackground(new java.awt.Color(0, 204, 204));
         CardPanel2.setOpaque(false);
+        CardPanel2.setPreferredSize(new java.awt.Dimension(971, 453));
 
         javax.swing.GroupLayout CardPanel2Layout = new javax.swing.GroupLayout(CardPanel2);
         CardPanel2.setLayout(CardPanel2Layout);
@@ -138,13 +84,12 @@ public class SmartDesk extends javax.swing.JFrame {
         PanCard.add(CardPanel2, "card2");
 
         CardPanel3.setBackground(new java.awt.Color(153, 0, 255));
-        CardPanel3.setOpaque(false);
 
         javax.swing.GroupLayout CardPanel3Layout = new javax.swing.GroupLayout(CardPanel3);
         CardPanel3.setLayout(CardPanel3Layout);
         CardPanel3Layout.setHorizontalGroup(
             CardPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1022, Short.MAX_VALUE)
+            .addGap(0, 971, Short.MAX_VALUE)
         );
         CardPanel3Layout.setVerticalGroup(
             CardPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -154,13 +99,12 @@ public class SmartDesk extends javax.swing.JFrame {
         PanCard.add(CardPanel3, "card2");
 
         CardPanel4.setBackground(new java.awt.Color(0, 204, 255));
-        CardPanel4.setOpaque(false);
 
         javax.swing.GroupLayout CardPanel4Layout = new javax.swing.GroupLayout(CardPanel4);
         CardPanel4.setLayout(CardPanel4Layout);
         CardPanel4Layout.setHorizontalGroup(
             CardPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1022, Short.MAX_VALUE)
+            .addGap(0, 971, Short.MAX_VALUE)
         );
         CardPanel4Layout.setVerticalGroup(
             CardPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -237,7 +181,7 @@ public class SmartDesk extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 471, 879, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/Texture-Background-Wallpaper.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/back.jpg"))); // NOI18N
         jLabel2.setOpaque(true);
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
@@ -326,15 +270,11 @@ public class SmartDesk extends javax.swing.JFrame {
     private javax.swing.JPanel CardPanel3;
     private javax.swing.JPanel CardPanel4;
     private javax.swing.JPanel PanCard;
-    private javax.swing.JLabel book1;
     private javax.swing.JButton btnPanel1;
     private javax.swing.JButton btnPanel2;
     private javax.swing.JButton btnPanel3;
     private javax.swing.JButton btnPanel4;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     // End of variables declaration//GEN-END:variables
 }
