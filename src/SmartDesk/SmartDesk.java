@@ -27,6 +27,7 @@ public class SmartDesk extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel6 = new javax.swing.JLabel();
         PanCard = new javax.swing.JPanel();
         CardPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -42,13 +43,16 @@ public class SmartDesk extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         btnPanel1 = new javax.swing.JButton();
         btnPanel4 = new javax.swing.JButton();
-        background = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1000, 560));
         setPreferredSize(new java.awt.Dimension(1000, 560));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/newbackground.jpg"))); // NOI18N
+        jLabel6.setOpaque(true);
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 930, 550));
 
         PanCard.setBackground(new java.awt.Color(0, 0, 0));
         PanCard.setOpaque(false);
@@ -130,7 +134,7 @@ public class SmartDesk extends javax.swing.JFrame {
         CardPanel2.setLayout(CardPanel2Layout);
         CardPanel2Layout.setHorizontalGroup(
             CardPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1016, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 971, Short.MAX_VALUE)
         );
         CardPanel2Layout.setVerticalGroup(
             CardPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -220,10 +224,6 @@ public class SmartDesk extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 471, 879, 60));
 
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SmartDesk/background.jpg"))); // NOI18N
-        background.setOpaque(true);
-        getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
@@ -296,7 +296,6 @@ public class SmartDesk extends javax.swing.JFrame {
     private javax.swing.JPanel CardPanel3;
     private javax.swing.JPanel CardPanel4;
     private javax.swing.JPanel PanCard;
-    private javax.swing.JLabel background;
     private javax.swing.JButton btnPanel1;
     private javax.swing.JButton btnPanel4;
     private javax.swing.JLabel jLabel1;
@@ -304,6 +303,7 @@ public class SmartDesk extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField2;
