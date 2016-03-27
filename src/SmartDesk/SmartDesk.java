@@ -128,7 +128,7 @@ public class SmartDesk extends javax.swing.JFrame {
         CardPanel2.setLayout(CardPanel2Layout);
         CardPanel2Layout.setHorizontalGroup(
             CardPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 971, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1016, Short.MAX_VALUE)
         );
         CardPanel2Layout.setVerticalGroup(
             CardPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -278,13 +278,6 @@ public class SmartDesk extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                
-                
-                try {
-                    Thread.sleep(4000);
-                } catch (Exception e) {
-                    System.out.println(e+"Load failed at the HACKTON!");
-                }
                 new SmartDesk().setVisible(true);
             }
         });
